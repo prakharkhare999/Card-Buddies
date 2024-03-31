@@ -33,7 +33,7 @@ function SignUp() {
       <motion.div className="absolute top-0 right-0">
         <motion.div className="bubble bg-green-500 w-20 h-20 rounded-full p-2" animate={{ y: [-20, 20, -20], transition: { repeat: Infinity, duration: 2 } }}></motion.div>
       </motion.div>
-      <div className="signup-content w-full max-w-md p-8 bg-opacity-80 bg-neutral-300 rounded-lg shadow-lg relative z-10">
+      <div className="signup-content w-full max-w-md p-8 bg-opacity-80   bg-gradient-to-r from-custom-start to-custom-end rounded-lg shadow-lg relative z-10">
         <header className="text-center mb-6">
           <h1 className="text-3xl font-bold text-gray-800">Sign Up</h1>
         </header>
