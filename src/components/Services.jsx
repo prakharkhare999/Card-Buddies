@@ -39,20 +39,20 @@ const Services = () => {
         <Slider {...settings} className="services-slider">
           <div className="service-item">
             <div className=" bg-stone-50 p-8 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 hover:bg- white hover:shadow-xl">
-              <h3 className="text-blue-700 text-2xl font-semibold mb-4 text-white">Service 1</h3>
-              <p className=" text-blue-700 text-lg text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3 className=" text-2xl font-semibold mb-4 text-blue-700">Service 1</h3>
+              <p className="  text-lg   text-blue-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
           <div className="service-item">
             <div className=" bg-stone-50 p-8 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 hover:bg- white hover:shadow-xl">
-              <h3 className=" text-blue-700 text-2xl font-semibold mb-4 text-white">Service 2</h3>
-              <p className="text-blue-700 text-lg text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3 className=" text-blue-700 text-2xl font-semibold mb-4  ">Service 2</h3>
+              <p className=" text-lg  text-blue-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
           <div className="service-item">
             <div className=" bg-stone-50 p-8 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 hover:bg- white hover:shadow-xl">
-              <h3 className="text-blue-700 text-2xl font-semibold mb-4 text-white">Service 3</h3>
-              <p className="text-blue-700 text-lg text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3 className=" text-2xl font-semibold mb-4  text-blue-700">Service 3</h3>
+              <p className=" text-lg  text-blue-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
         </Slider>
