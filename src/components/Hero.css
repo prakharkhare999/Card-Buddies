@@ -1,0 +1,22 @@
+
+
+@keyframes move-bubble {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(50px, 50px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  .bubble {
+    width: 20px;
+    height: 20px;
+    background: hsl(0, 100%, 50%);
+    border-radius: 50%;
+    animation: move-bubble 2s linear infinite;
+  }
+  
