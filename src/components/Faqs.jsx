@@ -16,9 +16,9 @@ const FAQ = () => {
   };
 
   return (
-    <div className="py-8" style={{ background: 'linear-gradient(45deg, #A78BFA 50%, #FECACA 50%)', backgroundSize: 'cover', backgroundAttachment: 'fixed', minHeight: '100vh' }}>
+    <div className="py-8 bg-gradient-to-r from-custom-start to-custom-end" bg-gradient-to-r from-custom-start to-custom-end   >
       <div className="container mx-auto">
-        <h2 className="text-3xl font-semibold mb-4">FAQs</h2>
+        <h2 className="text-white  text-3xl font-semibold mb-4">FAQs</h2>
         <div className="divide-y divide-gray-200">
           {faqs.map((faq, index) => (
             <div key={index} className="py-4">

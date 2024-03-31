@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactPage = () => {
   return (
-    <div className="bg-gradient-to-r from-pink-700 to-purple-900 text-white min-h-screen">
+    <div className="  bg-gradient-to-r from-custom-start to-custom-end text-white min-h-screen">
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-8">Contact Us</h1>
         
