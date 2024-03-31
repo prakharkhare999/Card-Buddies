@@ -1,0 +1,8 @@
+.services-slider {
+    margin: 0 -15px; /* Add some negative margin to the slider */
+  }
+  
+  .service-item {
+    padding: 0 15px; /* Add padding to each slider item for spacing */
+  }
+  

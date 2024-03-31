@@ -86,3 +86,14 @@ input[type="password"] {
 body {
   background-color: rgba(182, 106, 240, 0.749);
 }
+ 
+/* Define custom colors */
+ 
+@layer utilities {
+  .from-custom-start {
+    --tw-gradient-stops: #0007ec, #150bea, #200fe9, #2812e7, #2f15e6, #2f17e3, #2f18df, #2f1adc, #291bd6, #241bd1, #1310c4, #0b11ad;
+  }
+  .to-custom-end {
+    --tw-gradient-to-color: var(--tw-gradient-stops);
+  }
+}
